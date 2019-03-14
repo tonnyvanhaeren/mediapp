@@ -1,0 +1,7 @@
+<!-- before alert -->
+  <% if !flash[:alert].blank? %>
+    <div class="alert alert-danger" role="alert">
+        <%= flash[:alert] %>
+    </div>
+  <% end %>
+<!-- after alert -->
