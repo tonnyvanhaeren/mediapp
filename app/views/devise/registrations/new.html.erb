@@ -41,12 +41,14 @@
 
       </div>
 
+      <hr>
     
       <div class="actions">
-        <%= f.submit "Sign up", :class => 'btn btn-success' %>
+        <%= f.submit "Sign up", :class => 'btn btn-success btn-sm' %>
+        <%= render "devise/shared/links" %>
       </div>
     </div>
   </div>
 <% end %>
 
-<%= render "devise/shared/links" %>
+
